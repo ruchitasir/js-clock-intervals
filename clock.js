@@ -48,10 +48,7 @@ const HOUR_VALUE =12;
 
 var sec = setInterval(seconds,1000); // for the non real clock to start
 function seconds()
-{   console.log('sec',count);
-    console.log('min',minCnt);
-    console.log('hr',hour);
-    if(count<SEC_MIN_VALUE)
+{  if(count<SEC_MIN_VALUE)
     {count++;
     }
     else{
