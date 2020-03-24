@@ -1,14 +1,42 @@
+h1{
+    text-align: center;
+    font-size: 45px;
+    
+}
+
 #clock {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
 }
 
 #clock img {
 }
 
+#face{
+
+   
+    grid-column-start: 2;
+    grid-row-start: 1;
+
+}
 #hour {
+   
+    grid-column-start: 2;
+    grid-row-start: 1;
+    transform: rotate(0deg);
 }
 
 #minute {
+   
+    grid-column-start: 2;
+    grid-row-start: 1;
+    transform: rotate(0deg);
 }
 
 #second {
+   
+    grid-column-start: 2;
+    grid-row-start: 1;
 }
+
